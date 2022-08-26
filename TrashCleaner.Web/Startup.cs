@@ -1,3 +1,5 @@
+using TrashCleaner.Core.BuilderExtensions;
+
 namespace TrashCleaner.Web
 {
     public class Startup
@@ -33,7 +35,8 @@ namespace TrashCleaner.Web
                 .AddBackOffice()
                 .AddWebsite()
                 .AddComposers()
-                .Build();
+                .AddCustomHostedServices()
+                .Build(); 
         }
 
         /// <summary>

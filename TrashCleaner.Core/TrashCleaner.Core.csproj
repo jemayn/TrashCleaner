@@ -7,6 +7,7 @@
     <Title>TrashCleaner.Core</Title>
     <Description>...</Description>
     <PackageTags>umbraco plugin package</PackageTags>
+    <Nullable>warnings</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
